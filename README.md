@@ -1,4 +1,4 @@
-# saiboard-x
+# sai-board
 
 ## Project setup
 ```

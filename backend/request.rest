@@ -1,0 +1,21 @@
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJUZXR1a28gTXVoYW1tYWQgSGFudXJvZ28iLCJlbWFpbCI6ImFyZ29oaW5vcmlAc3R1ZGVudC50ZWxrb211bml2ZXJzaXR5LmFjLmlkIiwiaWF0IjoxNjY3MjMwMzkwLCJleHAiOjE2NjcyMzA0MjB9.5c8y3DWQhD3u8fYzLTF_ws7rXGKUIA9XE5M3AqgPAQw
+
+
+###
+GET http://localhost:3000/users
+
+###
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "argohinori",
+    "password": "123456."
+} 
+
+###
+GET http://localhost:3000/token
+
+###
+DELETE http://localhost:3000/logout

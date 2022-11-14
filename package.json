@@ -1,5 +1,5 @@
 {
-  "name": "saiboard-x",
+  "name": "sai-board",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,21 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "apexcharts": "^3.35.5",
+    "chart.js": "^3.9.1",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "export-excel-csv": "^1.0.1",
+    "export-excel-sheet-vue-js": "^1.0.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.25",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-excel-xlsx": "^1.2.2",
+    "vue-json-csv": "^2.1.0",
+    "vue-router": "^3.6.5",
+    "vue-xlsx": "^0.2.1",
+    "vuetify": "^2.6.0",
+    "write-excel-file": "^1.4.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,7 +32,11 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
   },
   "eslintConfig": {
     "root": true,
@@ -39,5 +56,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
 }
